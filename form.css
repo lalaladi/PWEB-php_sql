@@ -1,0 +1,89 @@
+html::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(to right top, rgba(0, 0, 0, 0), transparent 70%, rgba(0, 0, 0, 0.7));
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('aethetic.jpeg');
+    height: 100px;
+}
+.title{
+    width: 750px;
+    height: auto;
+    text-align: center;
+    margin: 90px 0 50px 95px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: normal;
+    font-size: 25px;  
+    float: left;
+}
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('awan-bulan.png');
+    background-repeat: no-repeat;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+/* .pict {
+    width:30%;
+    margin: 90px 95px 50px 0;
+    background-image: url('Pin_on_Items.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+} */
+.container{
+    display: inline-block;
+    width: 1370px;
+    height: 200px;
+    padding: 100px 70px;
+    text-align: center;
+    background-color: darkslategray;
+    margin: auto;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.5);
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#button {
+    margin: 0 10px;
+    background-color: rgb(107, 197, 167);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+#button a {
+    color: black;
+    text-decoration: none;
+}
+#button:hover {
+    background-color: rgb(58, 221, 167);
+}
+.menu-text {
+    font-size: 24px;
+    color: white;
+}
+.its-coder {
+    font-size: 65px;
+    color: #07f3ff; /* Warna kuning misalnya */
+    margin-left: 70px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

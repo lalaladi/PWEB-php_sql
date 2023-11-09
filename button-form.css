@@ -1,0 +1,37 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('aethetic.jpeg');
+    height: 100px;
+}
+.container-form{
+    width:550px;
+    height:350px;
+    padding: 2px 2px 2px 2px;
+    text-align: justify;
+    background-color: darkseagreen;
+    margin: 200px 150px auto 250px;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.5);
+}
+.words{
+    margin: 200px 100px 100px 250px;
+    width: 500px;;
+    text-align: left;
+}
+.table-text {
+    font-size: 24px;
+    color: rgb(175, 88, 88);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.table-form{
+    background-color: bisque;
+    width: fit-content;
+}
+.title-table{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin: 90px 100px auto 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: normal;
+    font-size: 20px;  
+}
